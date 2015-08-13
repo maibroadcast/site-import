@@ -27,7 +27,7 @@ It's really easy and intuitive. See what it can do:
 [youtube https://www.youtube.com/watch?v=iZkz37rkIUo]
 
 = Site Import Pro =
-[Upgrade to Site Import Pro](http://www.zefirstudio.pl/wp-siteimport/) and enjoy additional features:
+[Upgrade to Site Import Pro](http://www.zefirstudio.pl/wp-site-import/) and enjoy additional features:
 
 -	add your own custom fields
 -	select media on the site
