@@ -9,3 +9,10 @@
 	<p>
 		<iframe width="640" height="360" src="https://www.youtube.com/embed/iZkz37rkIUo" frameborder="0" allowfullscreen></iframe>
 	</p>
+
+<h3>Limitations</h3>
+	<p>
+		Remember that our plugin doesn't work with every website.
+		Some of them have different structure of the posts and it is too hard to recognize the parts of the site automatically.
+		But of course we are still trying to improve it, so that the most of the websites will work properly.
+	</p>
