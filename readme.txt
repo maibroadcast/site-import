@@ -12,9 +12,28 @@ Import posts/items directly from other websites.
 
 == Description ==
 
+= Site Import =
+
 This plugin allows you to import posts/items from other websites.
 You don't have to export anything, the content will be extracted directly from the site.
-It's really easy and intuitive.
+It's really easy and intuitive. See what it can do:
+
+-	import data from external websites
+-	choose which part of the site is resposible fro title/content/date/etc
+-	detect taxonomies depending on what type of the post you selected
+-	set how many posts you want to add
+-	see final preview of the data
+
+[youtube https://www.youtube.com/watch?v=iZkz37rkIUo]
+
+= Site Import Pro =
+[Upgrade to Site Import Pro](http://www.zefirstudio.pl/wp-siteimport/) and enjoy additional features:
+
+-	add your own custom fields
+-	select media on the site
+-	insert images directly into the posts
+-	save and load templates of the data
+-	technical support via email
 
 == Installation ==
 
