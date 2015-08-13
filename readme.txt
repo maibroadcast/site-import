@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Import posts/items directly from other websites.
+Import products, offers and content directly from other websites as easy and fast as never before.
 
 == Description ==
 
