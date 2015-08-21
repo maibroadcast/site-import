@@ -30,7 +30,6 @@ It's really easy and intuitive. See what it can do:
 Remember that our plugin doesn't work with every website. Some of them have different structure of the posts and it is too hard to recognize the parts of the site automatically. But of course we are still trying to improve it, so that the most of the websites will work properly.
 
 = Site Import Pro =
-DISCOUNT UNTIL AUGUST 20!
 [Upgrade to Site Import Pro](http://www.zefirstudio.pl/wp-site-import/) and enjoy additional features:
 
 -	add your own custom fields
