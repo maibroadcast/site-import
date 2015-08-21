@@ -47,7 +47,7 @@ if(window.location.href.indexOf('site_import')!=-1)(function($){
 		sElement = null;
 		sLink = sLink.indexOf('http')==-1? 'http://'+sLink : sLink;
 		sSelector = sSelector || '*';
-		sWindow = window.open('/wp-content/plugins/site-import/admin/page.php?url='+encodeURIComponent(sLink), 'select', 'width='+screen.width+', height='+screen.height);
+		sWindow = window.open(dir+'/page.php?url='+encodeURIComponent(sLink), 'select', 'width='+screen.width+', height='+screen.height);
 		sTooltipCSS = {position:'fixed', width:'300px', height:'auto', padding:'10px', background:'#d00', color:'#fff', textAlign:'center', zIndex:9e9};
 		$(sWindow).on('load', function(){
 			if(sText){
