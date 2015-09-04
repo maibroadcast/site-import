@@ -1,7 +1,7 @@
 === Site Import ===
 Contributors: zefir-studio
 Donate link: http://zefirstudio.pl/wp-site-import/
-Tags: import, importing, importer, copy, copying, clone, cloning, migrate, migrating, website, webpage, site, data, import posts, products, sales offer, estates, real estate, products import, product importer, import data, data import, posts import, copy offers, cloning offers, migrate data, import real estate, clone site, clone sites
+Tags: import, importing, importer, copy, copying, clone, cloning, migrate, migrating, website, webpage, site, data, import posts, products, sales offer, estates, real estate, products import, product importer, import data, data import, posts import, copy offers, cloning offers, migrate data, import real estate, clone site, clone sites, import without xml, import without csv, import without file, import without files, import without sql, Import, pages importer, importer pages, import to wordpress, import without, import without file, import without file, Import File, Files import, files import, file import, Import, import sites, sites import, Import webpage, import website, Website import, Webpage import, importer products, products importer, importer pages, website importer
 Requires at least: 3.0.1
 Tested up to: 4.2.4
 Stable tag: 1.0.0
