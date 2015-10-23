@@ -247,25 +247,7 @@ if(window.location.href.indexOf('site_import')!=-1)(function($){
 		parser = {
 			string: function(text){return text;},
 			int: function(text){num = text.match(/\d[\d\s\,]*/); return num ? num[0].replace(/[\s\,]+/g,'') : '0';},
-			float: function(text){num = text.match(/\d[\d\s\,]*(\.\d[\d\s]*)?/); return num ? num[0].replace(/[\s\,]+/g,'') : '0.0';},
-			date: function(text){
-				dat = text.match(/((\d{2,4})[\-\.\/](\d{2})[\-\.\/](\d{2}))|((\d{2})[\-\.\/](\d{2})[\-\.\/](\d{2,4}))/);
-				if(dat[1]){
-					year = dat[2];
-					month = dat[3];
-					day = dat[4];
-				}else if(dat[5]){
-					year = dat[6];
-					month = dat[7];
-					day = dat[8];
-				}else{
-					dat = new Date();
-					year = dat.getFullYear().toString();
-					month = (dat.getMonth()+1).toString();
-					day = dat.getDate().toString();	
-				}
-				return year + (month[1]?month:'0'+month) + (day[1]?day:'0'+day);
-			}	
+			float: function(text){num = text.match(/\d[\d\s\,]*(\.\d[\d\s]*)?/); return num ? num[0].replace(/[\s\,]+/g,'') : '0.0';}	
 		};
 		parser = parser[type] || parser.string;
 		return text.replace(/\{([\w\-\#\[\]\/]+)\}/g, function(match, selector){
@@ -319,7 +301,7 @@ if(window.location.href.indexOf('site_import')!=-1)(function($){
 			type: getType(),
 			title: parseData(getTitle(), content, 'string'),
 			content: parseData(getContent(), content, 'string'),
-			date: parseData(getDate(), content, 'date'),
+			date: parseData(getDate(), content, 'string'),
 			taxonomies: getTaxonomiesInputs().map(function(){return {name:this.name, value:parseData(this.value, content, 'string')};}).toArray()
 		};
 	}

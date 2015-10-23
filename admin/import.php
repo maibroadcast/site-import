@@ -24,8 +24,8 @@
 		$post['post_type'] = $_POST['type'];
 		$post['post_title'] = $_POST['title'];
 		$post['post_name'] = sanitize_title($post['post_title']);
-		$post['post_content'] =  $_POST['content'];
-		$post['post_date'] =  $_POST['date'];
+		$post['post_content'] = $_POST['content'];
+		$post['post_date'] = date('Y-m-d H:i:s', $_POST['date']);
 
 		// add post
 		$post_id = wp_insert_post($post, $wp_error);
