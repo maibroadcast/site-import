@@ -3,7 +3,7 @@
     * Plugin Name: Site Import
     * Plugin URI: http://zefirstudio.pl/wp-site-import/
     * Description: Import posts/items directly from other websites.
-    * Version: 1.0.0
+    * Version: 1.0.1
     * Author: Zefir Studio
     * Author URI: http://www.zefirstudio.pl/
     * License: GPL2
